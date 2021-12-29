@@ -4,6 +4,7 @@
 "http://java.sun.com/dtd/web-app_2_3.dtd" >
 
 <web-app>
+
   <filter>
     <filter-name>guiceFilter</filter-name>
     <filter-class>com.google.inject.servlet.GuiceFilter</filter-class>
@@ -17,4 +18,7 @@
   <listener>
     <listener-class>guice.web.servlet.demo.GuiceListner</listener-class>
   </listener>
+  <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
 </web-app>

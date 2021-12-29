@@ -10,6 +10,8 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
 	id 'eclipse'
+	id 'war'
+	id 'java'
 }
 
 repositories {
@@ -30,5 +32,5 @@ dependencies {
 
 application {
     // Define the main class for the application.
-    mainClass = 'guice.web.servlet.demo.App'
+//    mainClass = 'guice.web.servlet.demo.App'
 }
