@@ -4,11 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Google Guice</title>
+<title>RestEasy Web Demo</title>
 </head>
 <body>
-<h1>hello google</h1><br>
-<a href="GuiceServlet">click here</a><br>
-<a href="login">click here</a>
+<h1 align="center">Employee Details</h1><br>
+<a href="GuiceServlet">All Employee Detail</a><br><br>
+<a href="login">Register</a>
 </body>
 </html>

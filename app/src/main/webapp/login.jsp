@@ -7,7 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>hello there</h1>
-<h2>inside login</h2>
+<h1>Employee Registration</h1>
+<form action="register" method="post">  
+ 
+<input type="number" name="eid"  placeholder="Give Id Here" /><br/>  
+<input type="text" name="ename" placeholder="Give Name Here"/><br/> 
+<input type="number" name="esal" placeholder="Give Salary Here" /><br/>  
+<input type="submit" value="Register"/>  
+</form> 
 </body>
 </html>
